@@ -1,0 +1,114 @@
+body{
+	background: url(imgs/images4.jpg);
+}
+#wrapper{
+	background-color: gray;
+	color: black;
+	width: 800px;
+	height: 900px;
+	margin-left: 280px;
+	padding-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 10px;
+}
+#chatwrapper{
+	background-color: black;
+	color: white;
+	width: 700px;
+	height: 800px;
+	margin-top: 40px;
+	margin-left: 50px;
+	border: 6px solid skyblue;
+
+}
+#chats{
+	background: url(imgs/chat.jpg);
+	background-size: 600px 550px;
+    background-repeat: no-repeat;
+	width: 600px;
+	height: 550px;
+	border: 3px solid black;
+	border-radius: 34px;
+	margin-left: 40px;
+	margin-top: 40px;
+	overflow: auto;
+	position: relative;
+	overflow-y:scroll;
+	padding-bottom: 20px;
+}
+#inp_msg{
+	color: black;
+	margin-top: 10px;
+	margin-left: 45px;
+	float: left;
+}
+#logout{
+	float: right;
+}
+header{
+	float: left;
+}
+footer{
+	text-align: center;
+	color: white;
+}
+#msg1{
+	width: 400px;
+	border-radius: 9px;
+	border: 2px solid skyblue;
+	background-color: black;
+	color: white;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	margin-left: 5px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#sub_msg_btn{
+	float: right;
+	margin-top: 10px;
+	margin-right: 80px;
+	float: right;
+
+}
+#logout_btn{
+	float: right;
+	margin-right: 30px;
+}
+#sub_msgform{
+	margin-top: 30px;
+}
+#username_inmsg{
+	color: green;
+	font-style: italic;
+}
+#refresh{
+	float: left;
+	margin-left: 30px;
+	margin-top: 9px;
+}
+#username_inmsg_ofactive
+{
+	color: yellow;
+	font-style: italic;
+}
+#msg1_ofactive{
+	width: 400px;
+	border-radius: 9px;
+	border: 2px solid skyblue;
+	background-color: black;
+	color: white;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	margin-left: 175px;
+	padding-left: 7px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#user{
+	font-style: italic;
+	font-family: Georgia;
+	color: blue;
+}
